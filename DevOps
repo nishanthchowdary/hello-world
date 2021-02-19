@@ -3,7 +3,7 @@ agent any
 stages{
 stage(clone){
 steps{
-git branch: 'QA', credentialsid: '1234', url: 'https://github.com/nishanthchowdary/hello-world.git'
+git branch: 'dev', credentialsid: '1234', url: 'https://github.com/nishanthchowdary/hello-world.git'
 }
 }
 }
