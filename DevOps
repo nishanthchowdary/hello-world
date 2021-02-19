@@ -5,6 +5,8 @@ pipeline{
               steps{
           git url: 'https://github.com/nishanthchowdary/hello-world.git'
               }
+              step{
+              sh 'mvn clean package'
             }
           }
 }
