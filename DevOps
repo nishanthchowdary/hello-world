@@ -3,7 +3,7 @@ pipeline{
         stages{
            stage(clone){
               steps{
-          git branch: 'dev', credentialsid: '1234', url: 'https://github.com/nishanthchowdary/hello-world.git'
+          git url: 'https://github.com/nishanthchowdary/hello-world.git'
               }
             }
           }
